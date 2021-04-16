@@ -150,6 +150,12 @@
 .proyect_container :nth-child(2) p {
   padding: 15px;
 }
+.proyect_container a{
+  text-decoration: none;
+}
+.proyect_container a:hover{
+  color: red;
+}
 .footer_container {
   display: flex;
   flex-direction: column;
@@ -163,6 +169,13 @@
 }
 .footer_content i {
   padding-right: 10px;
+}
+.footer_content a{
+  color: #000;
+  text-decoration: none;
+}
+.footer_content a:hover{
+    color: red;
 }
 @media screen and (max-width: 640px) {
   .nav_container {
